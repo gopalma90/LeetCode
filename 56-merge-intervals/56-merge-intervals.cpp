@@ -18,8 +18,8 @@ vector<vector<int>> merge(vector<vector<int>>& intervals , bool sortneeded = tru
 	    for ( int i = 0; i < size; i++ ){
 				if ( ( i < size-1 ) &&  (intervals[i][1] >= intervals[i+1][0]) ) {
                     int val = intervals[i+1][1] > intervals[i][1] ? intervals[i+1][1] : intervals[i][1];
-					vector<int> temp { intervals[i][0],val };
-                    retVal.push_back(temp);
+					//vector<int> temp {  };
+                    retVal.push_back( {intervals[i][0],val});
 					i++; 
                     mergefound = true;
 				}
