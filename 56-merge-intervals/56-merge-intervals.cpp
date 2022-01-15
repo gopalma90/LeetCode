@@ -11,7 +11,7 @@ bool static sortOnA1( vector<int> &a1, vector<int> &a2) {
 
 vector<vector<int>> merge(vector<vector<int>>& intervals) {
        vector<vector<int> > retVal; 
-		 sort(intervals.begin(), intervals.end(), sortOnA1);
+		sort(intervals.begin(), intervals.end(), sortOnA1);
         bool mergefound = false;
 	    int size = intervals.size();
 	    for ( int i = 0; i < size; i++ ){
