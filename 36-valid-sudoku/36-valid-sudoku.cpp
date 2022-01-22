@@ -11,7 +11,6 @@ bool checkForSameRow(vector<int> temp)
 		vec.push_back(temp[i]);
 		i++;
 	}
-    cout << " vec size = " << vec.size() <<endl;
 	sort ( vec.begin(), vec.end() );
         for ( int i =0; i< vec.size()-1 ; i++ )
 			if (vec[i] == vec[i+1] )
@@ -139,40 +138,22 @@ bool isValidSudoku(vector<vector<char> > &board)
 			}
 		}
 	}
-	/*
-			  for ( auto it = pos.begin(); it != pos.end(); it++ ){
-				cout << " key = "<< it->first ;
-				cout << " \nvalue ";
-					vector<int> temp = it->second;
-					for ( int i = 0; i < temp.size(); i++ )
-						cout << " " << temp[i] << " ";
-					cout << endl;
-			}
-	  */
+	
 	for (auto it = pos.begin(); it != pos.end(); it++)
 	{
-		//  cout << " key = "<< it->first ;
-		// cout << " \nvalue ";
 		vector<int> temp = it->second;
         
-        cout << " checking for row for key " << it->first  <<endl;
 		if (checkForSameRow(it->second))
 		{
-			cout << " checkforrow false " << endl;
 			return false;
 		}
-        cout << " checking for col for key " << it->first  <<endl;
 		if (checkForSameColumn(it->second))
 		{
-
-			cout << " checkforcol false " << endl;
 			return false;
 		}
         
-        cout << " checking for square for key " << it->first  <<endl;
 		if (checkForSameSquare(it->second))
 		{
-			cout << " checkforsquare false " << endl;
 			return false;
 		}
 	}
