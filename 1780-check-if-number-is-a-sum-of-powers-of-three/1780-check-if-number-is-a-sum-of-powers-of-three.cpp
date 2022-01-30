@@ -10,14 +10,11 @@ public:
         }
         int tempsum = 0;
         for ( int i = power.size()-1; i >= 0; i-- ){
-            
-            if ( power[i]+tempsum < n ){
+            int sum = power[i]+tempsum;
+            if ( sum < n ){
                 tempsum+= power[i];
             }
-            else if (power[i]+tempsum > n  ){
-                continue;
-            }
-            else {
+            else if (sum == n  ){
                 return true;
             }
         }
