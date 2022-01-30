@@ -14,9 +14,11 @@ public:
             if ( (power[i]+tempsum) < n ){
                 tempsum+= power[i];
             }
-            else if ((power[i]+tempsum) == n  ){
-                return true;
+            else if ((power[i]+tempsum) > n  ){
+                continue;
             }
+            else
+                return true;
         }
      return false;   
     }
