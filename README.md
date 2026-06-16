@@ -5,6 +5,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0088-merge-sorted-array](https://github.com/gopalma90/LeetCode/tree/master/0088-merge-sorted-array) |
+| [0118-pascals-triangle](https://github.com/gopalma90/LeetCode/tree/master/0118-pascals-triangle) |
 | [0830-largest-triangle-area](https://github.com/gopalma90/LeetCode/tree/master/0830-largest-triangle-area) |
 ## Two Pointers
 |  |
@@ -39,4 +40,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0110-balanced-binary-tree](https://github.com/gopalma90/LeetCode/tree/master/0110-balanced-binary-tree) |
+## Dynamic Programming
+|  |
+| ------- |
+| [0118-pascals-triangle](https://github.com/gopalma90/LeetCode/tree/master/0118-pascals-triangle) |
 <!---LeetCode Topics End-->
