@@ -19,6 +19,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Math
 |  |
 | ------- |
+| [0070-climbing-stairs](https://github.com/gopalma90/LeetCode/tree/master/0070-climbing-stairs) |
 | [0830-largest-triangle-area](https://github.com/gopalma90/LeetCode/tree/master/0830-largest-triangle-area) |
 ## Geometry
 |  |
@@ -43,5 +44,10 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Dynamic Programming
 |  |
 | ------- |
+| [0070-climbing-stairs](https://github.com/gopalma90/LeetCode/tree/master/0070-climbing-stairs) |
 | [0118-pascals-triangle](https://github.com/gopalma90/LeetCode/tree/master/0118-pascals-triangle) |
+## Memoization
+|  |
+| ------- |
+| [0070-climbing-stairs](https://github.com/gopalma90/LeetCode/tree/master/0070-climbing-stairs) |
 <!---LeetCode Topics End-->
